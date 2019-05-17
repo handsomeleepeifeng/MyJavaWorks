@@ -26,7 +26,8 @@ public class FoosballDynasty {
                 temp = SeqofPlayer[3];
                 SeqofPlayer[3] = SeqofPlayer[1];
                 SeqofPlayer[1] = SeqofPlayer[4];
-                System.arraycopy(SeqofPlayer, 5, SeqofPlayer, 4, SeqofPlayer.length - 1 - 4);
+                if (SeqofPlayer.length > 5)
+                    System.arraycopy(SeqofPlayer, 5, SeqofPlayer, 4, SeqofPlayer.length - 1 - 4);
                 SeqofPlayer[SeqofPlayer.length-1] = temp;
             }
             if (str.charAt(i) == 'B' || str.charAt(i) == 'b'){
@@ -36,7 +37,8 @@ public class FoosballDynasty {
                 temp = SeqofPlayer[2];
                 SeqofPlayer[2] = SeqofPlayer[0];
                 SeqofPlayer[0] = SeqofPlayer[4];
-                System.arraycopy(SeqofPlayer, 5, SeqofPlayer, 4, SeqofPlayer.length - 1 - 4);
+                if (SeqofPlayer.length > 5)
+                    System.arraycopy(SeqofPlayer, 5, SeqofPlayer, 4, SeqofPlayer.length - 1 - 4);
                 SeqofPlayer[SeqofPlayer.length-1] = temp;
             }
         }
@@ -77,10 +79,10 @@ public class FoosballDynasty {
             }
         }
 
-        for (String s : output) {
-            System.out.println(s);
+        for (int i=0; i<output.size()-1; i++) {
+            System.out.println(output.get(i));
         }
-        //System.out.print(output.get(output.size()-1));
+        System.out.print(output.get(output.size()-1));
     }
 
     private static void NewTeam(String Player1, String Player2, ArrayList<String> output){
