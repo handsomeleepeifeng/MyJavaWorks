@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="修改了一些BUG,增加了存放图片的文件夹">
-      <change afterPath="$PROJECT_DIR$/A + B Problem.md" afterDir="false" />
+    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了A + B Problem说明文档">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FoosballDynasty.md" beforeDir="false" afterPath="$PROJECT_DIR$/FoosballDynasty.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FoosballDynasty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FoosballDynasty.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,22 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NumAdd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FoosballDynasty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="368">
+              <caret line="16" column="11" lean-forward="true" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -43,32 +31,8 @@
         <entry file="file://$PROJECT_DIR$/FoosballDynasty.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="368">
-                <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A + B Problem.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="437">
-                <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="46">
-                <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <first_editor relative-caret-position="3542">
+                <caret line="154" column="8" lean-forward="true" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,6 +62,7 @@
         <option value="$PROJECT_DIR$/src/NumAdd.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/A + B Problem.md" />
+        <option value="$PROJECT_DIR$/src/FoosballDynasty.java" />
         <option value="$PROJECT_DIR$/FoosballDynasty.md" />
       </list>
     </option>
@@ -113,6 +78,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,8 +96,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +123,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumAdd">
+  <component name="RunManager" selected="Application.FoosballDynasty">
+    <configuration name="FoosballDynasty" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FoosballDynasty" />
+      <module name="ArrayToAdd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntAdd" />
       <module name="ArrayToAdd" />
@@ -166,16 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumAdd" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumAdd" />
-      <module name="ArrayToAdd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.IntAdd" />
+      <item itemvalue="Application.FoosballDynasty" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumAdd" />
+        <item itemvalue="Application.FoosballDynasty" />
         <item itemvalue="Application.IntAdd" />
       </list>
     </recent_temporary>
@@ -197,7 +166,9 @@
       <workItem from="1557800286379" duration="806000" />
       <workItem from="1557801116890" duration="10934000" />
       <workItem from="1557834057076" duration="8724000" />
-      <workItem from="1557884263949" duration="5718000" />
+      <workItem from="1557884263949" duration="11654000" />
+      <workItem from="1557970962458" duration="32750000" />
+      <workItem from="1558056278886" duration="15281000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些BUG,警告，优化代码">
       <created>1557886078764</created>
@@ -213,11 +184,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557887989368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交了A + B Problem说明文档">
+      <created>1557890048031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890048031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45406000" />
+    <option name="totallyTimeSpent" value="99373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +210,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,10 +218,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="设计器" order="7" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32952183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32848233" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24220374" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3118503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,6 +232,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32848233" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.32848233" />
       <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,14 +252,18 @@
     <MESSAGE value="修改了一些BUG" />
     <MESSAGE value="修改了一些BUG,警告，优化代码" />
     <MESSAGE value="修改了一些BUG,增加了存放图片的文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了一些BUG,增加了存放图片的文件夹" />
+    <MESSAGE value="提交了A + B Problem说明文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交了A + B Problem说明文档" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/IntAdd.java" />
-    <entry file="jar://D:/jdk/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="652" column="18" selection-start-line="652" selection-start-column="18" selection-end-line="652" selection-end-column="18" />
+    <entry file="file://$PROJECT_DIR$/A + B Problem.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="437">
+            <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -298,35 +280,36 @@
     <entry file="file://$PROJECT_DIR$/src/NumAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A + B Problem.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="437">
-            <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://D:/jdk/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="430" column="15" selection-start-line="430" selection-start-column="15" selection-end-line="430" selection-end-column="15" />
+          <folding>
+            <element signature="e#15414#15415#0" expanded="true" />
+            <element signature="e#15459#15460#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FoosballDynasty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="368">
+          <caret line="16" column="11" lean-forward="true" selection-end-line="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FoosballDynasty.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="368">
-            <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <first_editor relative-caret-position="3542">
+            <caret line="154" column="8" lean-forward="true" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>

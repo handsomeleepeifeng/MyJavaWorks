@@ -54,4 +54,193 @@ more than once in the output, potentially with the player names in a different o
     BBBBB
 ###Onput 2
     Jinu Sarah
-##MyCode
+##MisunderstandingCode
+    import java.util.*;
+    
+    public class FoosballDynasty {
+    
+        public static void main(String[] args){
+            Scanner scan = new Scanner(System.in);
+            int Num = scan.nextInt();
+            String[] Name = new String[Num];
+            int[] SeqOfPlayer = new int[Num];
+            for(int i = 0; i<Num; i++){
+                Name[i] = scan.next();
+                SeqOfPlayer[i] = i;
+            }
+            String Scored = scan.next();
+            Solution(Num,SeqOfPlayer,Name,Scored);
+        }
+    
+    
+        private static void Solution(int NumOfPlayer, int[] SeqOfPlayer, String[] PlayerName, String ScoredSeq){
+            int Round = 0;
+            int[][] TeamScored = new int[NumOfPlayer][NumOfPlayer];
+            char[] ScoredSeqArray = ScoredSeq.toCharArray();
+            RecurPlaying(Round,SeqOfPlayer,ScoredSeqArray,TeamScored);
+            FindandPrint(TeamScored,PlayerName);
+    
+    
+    
+        }
+    
+        private static void RecurPlaying(int Round, int[] SeqOfPlayer, char[] ScoredSeq, int[][] TeamScored){
+            CalculateTheScore(Round,SeqOfPlayer,TeamScored);
+            ChangeThePlayer(SeqOfPlayer,ScoredSeq[Round]);
+            boolean flag = false;
+            if (Round == ScoredSeq.length-1)
+                flag = true;
+            if (!flag)
+                RecurPlaying(++Round,SeqOfPlayer,ScoredSeq,TeamScored);
+        }
+    
+        private static void ChangeThePlayer(int[] SeqofPlayer, char str){
+            int temp;
+            if (str == 'W' || str == 'w'){
+                temp = SeqofPlayer[0];
+                SeqofPlayer[0] = SeqofPlayer[2];
+                SeqofPlayer[2] = temp;
+                temp = SeqofPlayer[3];
+                SeqofPlayer[3] = SeqofPlayer[1];
+                SeqofPlayer[1] = SeqofPlayer[4];
+                for (int i = 5; i<=SeqofPlayer.length-1;i++){
+                    SeqofPlayer[i-1] = SeqofPlayer[i];
+                }
+                SeqofPlayer[SeqofPlayer.length-1] = temp;
+            }
+            if (str == 'B' || str == 'b'){
+                temp = SeqofPlayer[1];
+                SeqofPlayer[1] = SeqofPlayer[3];
+                SeqofPlayer[3] = temp;
+                temp = SeqofPlayer[2];
+                SeqofPlayer[2] = SeqofPlayer[0];
+                SeqofPlayer[0] = SeqofPlayer[4];
+                for (int i = 5; i<=SeqofPlayer.length-1;i++){
+                    SeqofPlayer[i-1] = SeqofPlayer[i];
+                }
+                SeqofPlayer[SeqofPlayer.length-1] = temp;
+            }
+        }
+    
+        private static void CalculateTheScore(int Round, int[] SeqOfPlayer, int[][] TeamScored){
+            TeamScored[SeqOfPlayer[0]<SeqOfPlayer[2]?SeqOfPlayer[0]:SeqOfPlayer[2]][SeqOfPlayer[0]>SeqOfPlayer[2]?SeqOfPlayer[0]:SeqOfPlayer[2]]++;
+            TeamScored[SeqOfPlayer[0]>SeqOfPlayer[2]?SeqOfPlayer[0]:SeqOfPlayer[2]][SeqOfPlayer[0]<SeqOfPlayer[2]?SeqOfPlayer[0]:SeqOfPlayer[2]] = Round;
+            TeamScored[SeqOfPlayer[1]<SeqOfPlayer[3]?SeqOfPlayer[1]:SeqOfPlayer[3]][SeqOfPlayer[1]>SeqOfPlayer[3]?SeqOfPlayer[1]:SeqOfPlayer[3]]++;
+            TeamScored[SeqOfPlayer[1]>SeqOfPlayer[3]?SeqOfPlayer[1]:SeqOfPlayer[3]][SeqOfPlayer[1]<SeqOfPlayer[3]?SeqOfPlayer[1]:SeqOfPlayer[3]] = Round;
+        }
+    
+        private static void FindandPrint(int[][] TeamScored,String[] PlayerName){
+            SortedMap<Integer,String> DynastyandRound = new TreeMap<>();
+            int longestDynasty = 0;
+            for (int i = TeamScored.length-1; i>=0; i--){
+                for(int j =0; j<i; j++){
+                    if (TeamScored[j][i]>longestDynasty)
+                        longestDynasty = TeamScored[j][i];
+                }
+            }
+            for (int i = TeamScored.length-1; i>=0; i--)
+                for(int j =0 ;j<i; j++){
+                    if (TeamScored[j][i] == longestDynasty){
+                        DynastyandRound.put(TeamScored[i][j],PlayerName[i]+' '+PlayerName[j]);
+                    }
+                }
+            Set<Map.Entry<Integer,String>> entryset = DynastyandRound.entrySet();
+            for (Map.Entry<Integer, String> entry : entryset) {
+                System.out.print(entry.getValue()+'\n');
+            }
+        }
+    }
+    //What i used to do is to calculate which team player on the table longest in total,but
+    not the "dynasty",Those code work well in my misunderstanding.
+##Mycode
+    import java.util.*;
+    
+    public class FoosballDynasty {
+    
+        public static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            //while (scan.hasNext()) {
+                int Num = scan.nextInt();
+                String[] Name = new String[Num];
+                int[] SeqOfPlayer = new int[Num];
+                for (int i = 0; i < Num; i++) {
+                    Name[i] = scan.next();
+                    SeqOfPlayer[i] = i;
+                }
+                String Scored = scan.next();
+                FindAllDynasty(SeqOfPlayer, Name, Scored);
+            //}
+        }
+        private static void ChangeThePlayer(int[] SeqofPlayer, String str , int Round){
+            int temp;
+            for (int i = 0; i<Round; i++){
+                if (str.charAt(i) == 'W' || str.charAt(i) == 'w'){
+                    temp = SeqofPlayer[0];
+                    SeqofPlayer[0] = SeqofPlayer[2];
+                    SeqofPlayer[2] = temp;
+                    temp = SeqofPlayer[3];
+                    SeqofPlayer[3] = SeqofPlayer[1];
+                    SeqofPlayer[1] = SeqofPlayer[4];
+                    System.arraycopy(SeqofPlayer, 5, SeqofPlayer, 4, SeqofPlayer.length - 1 - 4);
+                    SeqofPlayer[SeqofPlayer.length-1] = temp;
+                }
+                if (str.charAt(i) == 'B' || str.charAt(i) == 'b'){
+                    temp = SeqofPlayer[1];
+                    SeqofPlayer[1] = SeqofPlayer[3];
+                    SeqofPlayer[3] = temp;
+                    temp = SeqofPlayer[2];
+                    SeqofPlayer[2] = SeqofPlayer[0];
+                    SeqofPlayer[0] = SeqofPlayer[4];
+                    System.arraycopy(SeqofPlayer, 5, SeqofPlayer, 4, SeqofPlayer.length - 1 - 4);
+                    SeqofPlayer[SeqofPlayer.length-1] = temp;
+                }
+            }
+        }
+        private static void FindAllDynasty(int[] SeqOfPlayer, String[] PlayerName,String ScoredString){
+            SortedMap<Integer,Integer> Result = new TreeMap<>();
+            int temp = 0;
+            int Dynasty = 0;
+            ArrayList<String> output = new ArrayList<>();
+            for (int i = 1; i<ScoredString.length(); i++){
+                if (ScoredString.charAt(i) == ScoredString.charAt(i-1)){
+                    temp++;
+                    if (temp >= Dynasty){
+                        Dynasty = temp;
+                        Result.put(i-temp,Dynasty);
+                    }
+                }
+                else
+                    temp = 0;
+            }
+            Set<Map.Entry<Integer,Integer>> entrySet = Result.entrySet();
+            for (Map.Entry<Integer, Integer> entry : entrySet) {
+                if (entry.getValue() >= Dynasty) {
+                    int value = entry.getKey();
+                    ChangeThePlayer(SeqOfPlayer, ScoredString, value);
+                    if (ScoredString.charAt(value) == 'W') {
+                        if (value == 0)
+                            NewTeam(PlayerName[SeqOfPlayer[0]],PlayerName[SeqOfPlayer[2]],output);
+                        else
+                            NewTeam(PlayerName[SeqOfPlayer[2]],PlayerName[SeqOfPlayer[0]],output);
+                    }
+                    if (ScoredString.charAt(value) == 'B') {
+                        if (value == 0)
+                            NewTeam(PlayerName[SeqOfPlayer[1]],PlayerName[SeqOfPlayer[3]],output);
+                        else
+                            NewTeam(PlayerName[SeqOfPlayer[3]],PlayerName[SeqOfPlayer[1]],output);
+                    }
+                }
+            }
+    
+            for (String s : output) {
+                System.out.println(s);
+            }
+            //System.out.print(output.get(output.size()-1));
+        }
+    
+        private static void NewTeam(String Player1, String Player2, ArrayList<String> output){
+            String Team = Player1.concat(" "+Player2);
+                if (!output.contains(Team))
+                    output.add(Team);
+        }
+    }
