@@ -78,11 +78,12 @@ public class FoosballDynasty {
                 }
             }
         }
-
-        for (int i=0; i<output.size()-1; i++) {
-            System.out.println(output.get(i));
+        if (!output.isEmpty()){
+            for (int i=0; i<output.size()-1; i++) {
+                System.out.println(output.get(i));
+            }
+            System.out.print(output.get(output.size()-1));
         }
-        System.out.print(output.get(output.size()-1));
     }
 
     private static void NewTeam(String Player1, String Player2, ArrayList<String> output){
