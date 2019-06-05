@@ -42,22 +42,38 @@ public class FoosballDynasty {
                 SeqofPlayer[SeqofPlayer.length-1] = temp;
             }
         }
+        for (int  s: SeqofPlayer
+             ) {
+            System.out.print(s);
+        }
+        System.out.println();
     }
     private static void FindAllDynasty(int[] SeqOfPlayer, String[] PlayerName,String ScoredString){
         SortedMap<Integer,Integer> Result = new TreeMap<>();
         int temp = 0;
         int Dynasty = 0;
         ArrayList<String> output = new ArrayList<>();
-        for (int i = 1; i<ScoredString.length(); i++){
-            if (ScoredString.charAt(i) == ScoredString.charAt(i-1)){
-                temp++;
-                if (temp >= Dynasty){
-                    Dynasty = temp;
-                    Result.put(i-temp,Dynasty);
+        if (ScoredString.length() == 1){
+            Result.put(0,0);
+        }
+        else if (ScoredString.length() == 0){
+            System.out.print("");
+        }
+        else{
+            for (int i = 0; i < ScoredString.length() - 1; i++) {
+                if (ScoredString.charAt(i) == ScoredString.charAt(i + 1)) {
+                    temp++;
+                    if (temp >= Dynasty) {
+                        Dynasty = temp;
+                        Result.put(i - temp + 1, Dynasty);
+                    }
+                } else {
+                    temp = 0;
+                    if (temp >= Dynasty) {
+                        Result.put(i, Dynasty);
+                    }
                 }
             }
-            else
-                temp = 0;
         }
         Set<Map.Entry<Integer,Integer>> entrySet = Result.entrySet();
         for (Map.Entry<Integer, Integer> entry : entrySet) {
@@ -79,16 +95,16 @@ public class FoosballDynasty {
             }
         }
         if (!output.isEmpty()){
-            for (int i=0; i<output.size()-1; i++) {
-                System.out.println(output.get(i));
+            for (String s : output) {
+                System.out.println(s);
             }
-            System.out.print(output.get(output.size()-1));
+            //System.out.print(output.get(output.size()-1));
         }
     }
 
     private static void NewTeam(String Player1, String Player2, ArrayList<String> output){
         String Team = Player1.concat(" "+Player2);
-            if (!output.contains(Team))
-                output.add(Team);
+            //if (!output.contains(Team))
+        output.add(Team);
     }
 }
