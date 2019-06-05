@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了找重复数字的代码">
-      <change afterPath="$PROJECT_DIR$/ProFourTwoDimensionalArray.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProFourTwoDimensionalArray.java" afterDir="false" />
+    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了找查二维数组下是否含有某个数的代码">
+      <change afterPath="$PROJECT_DIR$/ProFiveReplaceSpace.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProFiveReplaceSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,29 +19,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProFourTwoDimensionalArray.java">
+        <entry file="file://$PROJECT_DIR$/src/ProFiveReplaceSpace.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="28" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Alicesgame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2185">
-              <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+              <caret selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProFourTwoDimensionalArray.md">
+        <entry file="file://$PROJECT_DIR$/ProFiveReplaceSpace.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="230">
-                <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <first_editor relative-caret-position="276">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,6 +75,8 @@
         <option value="$PROJECT_DIR$/ProThreeRepetitionNumber.md" />
         <option value="$PROJECT_DIR$/src/ProFourTwoDimensionalArray.java" />
         <option value="$PROJECT_DIR$/ProFourTwoDimensionalArray.md" />
+        <option value="$PROJECT_DIR$/src/ProFiveReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/ProFiveReplaceSpace.md" />
       </list>
     </option>
   </component>
@@ -146,14 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Alicesgame">
-    <configuration name="Alicesgame" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProFourTwoDimensionalArray" />
-      <module name="ArrayToAdd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProFiveReplaceSpace">
     <configuration name="IntAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntAdd" />
       <module name="ArrayToAdd" />
@@ -161,13 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProFiveReplaceSpace" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProFiveReplaceSpace" />
+      <module name="ArrayToAdd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.IntAdd" />
-      <item itemvalue="Application.Alicesgame" />
+      <item itemvalue="Application.ProFiveReplaceSpace" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Alicesgame" />
+        <item itemvalue="Application.ProFiveReplaceSpace" />
         <item itemvalue="Application.IntAdd" />
       </list>
     </recent_temporary>
@@ -205,7 +198,7 @@
       <workItem from="1559611478364" duration="45000" />
       <workItem from="1559611549587" duration="3550000" />
       <workItem from="1559655596005" duration="16000" />
-      <workItem from="1559701013465" duration="11928000" />
+      <workItem from="1559701013465" duration="12706000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些BUG,警告，优化代码">
       <created>1557886078764</created>
@@ -263,11 +256,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559709038024</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交了找查二维数组下是否含有某个数的代码">
+      <created>1559722426906</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559722426906</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178029000" />
+    <option name="totallyTimeSpent" value="178807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,7 +282,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,8 +291,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="设计器" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32848233" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.24116424" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32848233" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.24116424" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,7 +328,8 @@
     <MESSAGE value="提交了A + B Problem最终代码" />
     <MESSAGE value="提交了单例模式的代码" />
     <MESSAGE value="提交了找重复数字的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交了找重复数字的代码" />
+    <MESSAGE value="提交了找查二维数组下是否含有某个数的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交了找查二维数组下是否含有某个数的代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/IntAdd.java" />
@@ -462,6 +463,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProFourTwoDimensionalArray.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Alicesgame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
@@ -471,16 +482,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProFourTwoDimensionalArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="529">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProFourTwoDimensionalArray.md">
+    <entry file="file://$PROJECT_DIR$/src/ProFiveReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProFiveReplaceSpace.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="230">
-            <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <first_editor relative-caret-position="276">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
         </state>
