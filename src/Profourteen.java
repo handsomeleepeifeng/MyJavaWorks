@@ -10,9 +10,8 @@ public class Profourteen {
         for (int i = 4;i<len;i++){
             int max = 0;
             for (int j =i;j<i/2 ;j++){
-                int max1 = maxlenth[i] * maxlenth[i - j];
-                if (max < max1){
-                    max = max1;
+                if (max < maxlenth[i] * maxlenth[i - j]){
+                    max = maxlenth[i] * maxlenth[i - j];
                 }
             }
             maxlenth[i] = max;

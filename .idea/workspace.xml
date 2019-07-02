@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了矩阵中路劲的代码">
-      <change afterPath="$PROJECT_DIR$/ProThirteen.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProThirteen.java" afterDir="false" />
+    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了剪绳子的代码">
+      <change afterPath="$PROJECT_DIR$/Profifteen.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Profifteen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profourteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profourteen.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +28,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProTwelve.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+              <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Profourteen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Profourteen.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="391">
+                <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Profifteen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Profifteen.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-140">
+                <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -116,6 +159,10 @@
         <option value="$PROJECT_DIR$/ProTwelve.md" />
         <option value="$PROJECT_DIR$/src/ProThirteen.java" />
         <option value="$PROJECT_DIR$/ProThirteen.md" />
+        <option value="$PROJECT_DIR$/src/Profourteen.java" />
+        <option value="$PROJECT_DIR$/Profourteen.md" />
+        <option value="$PROJECT_DIR$/src/Profifteen.java" />
+        <option value="$PROJECT_DIR$/Profifteen.md" />
       </list>
     </option>
   </component>
@@ -265,7 +312,7 @@
       <workItem from="1561691947643" duration="5289000" />
       <workItem from="1561948703156" duration="7753000" />
       <workItem from="1561981569497" duration="25000" />
-      <workItem from="1562033438039" duration="2142000" />
+      <workItem from="1562033438039" duration="7919000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些BUG,警告，优化代码">
       <created>1557886078764</created>
@@ -379,11 +426,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561954942199</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="提交了机器人运动范围的代码">
+      <created>1562035612265</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562035612265</updated>
+    </task>
+    <task id="LOCAL-00018" summary="提交了剪绳子的代码">
+      <created>1562052663601</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562052663601</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225963000" />
+    <option name="totallyTimeSpent" value="231740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +478,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32848233" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.2889813" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4989339" weight="0.32848233" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -452,7 +513,9 @@
     <MESSAGE value="提交了Fibonacci的代码" />
     <MESSAGE value="提交了旋转数组找最小值的代码" />
     <MESSAGE value="提交了矩阵中路劲的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交了矩阵中路劲的代码" />
+    <MESSAGE value="提交了机器人运动范围的代码" />
+    <MESSAGE value="提交了剪绳子的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交了剪绳子的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,7 +839,41 @@
     <entry file="file://$PROJECT_DIR$/src/ProTwelve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Profourteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profourteen.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Profifteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profifteen.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-140">
+            <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
