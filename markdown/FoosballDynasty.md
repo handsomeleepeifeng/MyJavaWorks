@@ -6,7 +6,7 @@ due to the increasing interest and availabilityof coworkers, Balaji has created 
 variation that supports 5 ormore players. Each individual point is played by four
 players: two on the White team and two on the Black team.
 
-![Foosball Dynasty](https://github.com/handsomeleepeifeng/MyJavaWorks/blob/master/PIC/Foosball%20Dynasty.png)
+![Foosball Dynasty](../PIC/Foosball Dynasty.png)
 
 The remaining players wait in line for their turn to play. On each point, the players
 on the scoring team switch positions (e.g., if White scores the point,then the White
