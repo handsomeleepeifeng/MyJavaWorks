@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了反转链表的代码">
-      <change afterPath="$PROJECT_DIR$/markdown/ProTwentyfive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProTwentyfive.java" afterDir="false" />
+    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了树的子结构的代码">
+      <change afterPath="$PROJECT_DIR$/markdown/chapter 4/ProTwentysiven.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProTwentysiven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/A + B Problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/Other/A + B Problem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/FoosballDynasty.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/Other/FoosballDynasty.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProEightStackToQuery.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProEightStackToQuery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProEighteen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProEighteen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProEleven.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProEleven.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProFiveReplaceSpace.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProFiveReplaceSpace.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProFourTwoDimensionalArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProFourTwoDimensionalArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProNineTreeNextNode.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProNineTreeNextNode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProNinteen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProNinteen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProSevenRebuildTree.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProSevenRebuildTree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProSeventeen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProSeventeen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProSixPrintListNodefromTail.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProSixPrintListNodefromTail.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProSixteen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProSixteen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTenFibonacci.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProTenFibonacci.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProThirteen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProThirteen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProThreeRepetitionNumber.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProThreeRepetitionNumber.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwelve.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProTwelve.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwenty.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwenty.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwentyfive.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwentyfive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwentyfour.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwentyfour.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwentyone.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwentyone.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwentysix.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwentysix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwentythree.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwentythree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwentytwo.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 3/ProTwentytwo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ProTwoSingleton.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/ProTwoSingleton.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/Profifteen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/Profifteen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/Profourteen.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/chapter 2/Profourteen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,71 +47,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProTwentythree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/ProTwentythree.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="235">
-                <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProTwentyfour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProSixPrintListNodefromTail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/ProTwentyfour.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="184">
-                <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProTwentyfive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProTwentysix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProTwentysiven.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markdown/ProTwentyfive.md">
+        <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTwentysiven.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="322">
-                <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <first_editor relative-caret-position="350">
+                <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,11 +89,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/ProTwoSingleton.md">
+        <entry file="jar://D:/jdk/src.zip!/java/math/BigDecimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="2625" column="27" selection-start-line="2625" selection-start-column="27" selection-end-line="2625" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#77#78#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProSevenRebuildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentysix.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <first_editor relative-caret-position="989">
+                <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentyfive.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="322">
+                <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,10 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProTwoSingleton.md" />
-        <option value="$PROJECT_DIR$/src/ProThreeRepetitionNumber.java" />
-        <option value="$PROJECT_DIR$/ProThreeRepetitionNumber.md" />
-        <option value="$PROJECT_DIR$/src/ProFourTwoDimensionalArray.java" />
         <option value="$PROJECT_DIR$/ProFourTwoDimensionalArray.md" />
         <option value="$PROJECT_DIR$/ProFiveReplaceSpace.md" />
         <option value="$PROJECT_DIR$/src/ProFiveReplaceSpace.java" />
@@ -169,8 +206,12 @@
         <option value="$PROJECT_DIR$/markdown/ProTwentythree.md" />
         <option value="$PROJECT_DIR$/src/ProTwentyfour.java" />
         <option value="$PROJECT_DIR$/markdown/ProTwentyfour.md" />
-        <option value="$PROJECT_DIR$/src/ProTwentyfive.java" />
         <option value="$PROJECT_DIR$/markdown/ProTwentyfive.md" />
+        <option value="$PROJECT_DIR$/src/ProTwentyfive.java" />
+        <option value="$PROJECT_DIR$/src/ProTwentysix.java" />
+        <option value="$PROJECT_DIR$/markdown/ProTwentysix.md" />
+        <option value="$PROJECT_DIR$/src/ProTwentysiven.java" />
+        <option value="$PROJECT_DIR$/markdown/chapter 4/ProTwentysiven.md" />
       </list>
     </option>
   </component>
@@ -206,6 +247,12 @@
             <path>
               <item name="myworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="myworks" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter 4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myworks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,12 +280,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspaces\IdeaProjects\myworks\markdown" />
-      <recent name="D:\workspaces\IdeaProjects\myworks" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspaces\IdeaProjects\myworks\markdown\Other" />
+      <recent name="D:\workspaces\IdeaProjects\myworks\markdown\chapter 3" />
+      <recent name="D:\workspaces\IdeaProjects\myworks\markdown\chapter 2" />
+      <recent name="D:\workspaces\IdeaProjects\myworks\markdown\chapter 4" />
+      <recent name="D:\workspaces\IdeaProjects\myworks\markdown" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,7 +387,7 @@
       <workItem from="1562382460951" duration="11016000" />
       <workItem from="1562585018696" duration="13000" />
       <workItem from="1562588323906" duration="640000" />
-      <workItem from="1562636758235" duration="5570000" />
+      <workItem from="1562636758235" duration="11869000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些BUG,警告，优化代码">
       <created>1557886078764</created>
@@ -535,11 +585,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562639654525</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="提交了合并有序链表的代码">
+      <created>1562642416420</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562642416420</updated>
+    </task>
+    <task id="LOCAL-00030" summary="提交了树的子结构的代码">
+      <created>1562650500053</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1562650500053</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277964000" />
+    <option name="totallyTimeSpent" value="284263000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,8 +637,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.12889813" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733475" weight="0.12889813" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.12889813" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4968017" visible="true" weight="0.12889813" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -593,8 +657,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改了一些BUG,增加了存放图片的文件夹" />
-    <MESSAGE value="提交了A + B Problem说明文档" />
     <MESSAGE value="提交了A + B Problem最终代码" />
     <MESSAGE value="提交了单例模式的代码" />
     <MESSAGE value="提交了找重复数字的代码" />
@@ -618,7 +680,9 @@
     <MESSAGE value="提交了链表中倒数第k个结点的代码" />
     <MESSAGE value="提交了链表中环的入口结点的代码" />
     <MESSAGE value="提交了反转链表的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交了反转链表的代码" />
+    <MESSAGE value="提交了合并有序链表的代码" />
+    <MESSAGE value="提交了树的子结构的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交了树的子结构的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -633,43 +697,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTreeNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/ConstructTree.java" />
-    <entry file="file://$PROJECT_DIR$/markdown/ProNineTreeNextNode.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProTenFibonaacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTenFibonacci.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProNineTreeNextNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProSevenRebuildTree.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/ProSevenRebuildTree.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -677,7 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProEightStackToQuery.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/ProEightStackToQuery.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="299">
@@ -687,14 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProSevenRebuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProThirteen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/ProThirteen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="121">
@@ -718,7 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProEleven.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/ProEleven.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="230">
@@ -742,7 +763,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/Profourteen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/Profourteen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="391">
@@ -752,7 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/Profifteen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/Profifteen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
@@ -788,7 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProSixteen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProSixteen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="713">
@@ -833,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwenty.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwenty.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="741">
@@ -843,7 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProNinteen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProNinteen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="741">
@@ -857,17 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,7 +898,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProSeventeen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProSeventeen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="741">
@@ -905,7 +915,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwentytwo.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentytwo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="575">
@@ -922,7 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwelve.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/ProTwelve.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-46">
@@ -932,7 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProEighteen.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProEighteen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="741">
@@ -942,7 +952,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/FoosballDynasty.md">
+    <entry file="file://$PROJECT_DIR$/markdown/Other/FoosballDynasty.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1633">
@@ -970,7 +980,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwentyone.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentyone.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="552">
@@ -980,7 +990,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/A + B Problem.md">
+    <entry file="file://$PROJECT_DIR$/markdown/Other/A + B Problem.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="23">
@@ -997,7 +1007,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwoSingleton.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 2/ProTwoSingleton.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="345">
@@ -1007,7 +1017,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwentythree.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentythree.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="235">
@@ -1031,7 +1041,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwentyfour.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentyfour.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="184">
@@ -1041,18 +1051,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProTwentyfive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/ProTwentyfive.md">
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentyfive.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="322">
             <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProTwentyfive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProSevenRebuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="2625" column="27" selection-start-line="2625" selection-start-column="27" selection-end-line="2625" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwentysix.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="989">
+            <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProTwentysix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProTwentysiven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTwentysiven.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="350">
+            <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
