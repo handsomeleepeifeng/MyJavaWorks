@@ -1,8 +1,8 @@
 class BinaryTreeNode {
-    private int val;
+    int val;
     BinaryTreeNode left;
     BinaryTreeNode right;
-    BinaryTreeNode(int val){
+    public BinaryTreeNode(int val){
         this.val = val;
     }
 }
