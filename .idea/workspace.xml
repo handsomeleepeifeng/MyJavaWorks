@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了从上到下打印二叉树的代码">
-      <change afterPath="$PROJECT_DIR$/markdown/chapter 4/ProTirtythree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProTirtythree.java" afterDir="false" />
+    <list default="true" id="338e8ff6-c394-4caa-93e3-e7e366cfa445" name="Default Changelist" comment="提交了二叉树中和为某一值的路径的代码">
+      <change afterPath="$PROJECT_DIR$/markdown/chapter 4/ProTirtyfive.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProTirtyfive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,12 +27,71 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTirtythree.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="644">
                 <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProTirtyfour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProTirtyfive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTirtyfive.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="138">
+                <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProSevenRebuildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTirtyfour.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="667">
+                <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,11 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProNineTreeNextNode.md" />
-        <option value="$PROJECT_DIR$/ProTenFibonacci.md" />
-        <option value="$PROJECT_DIR$/src/ProTenFibonaacci.java" />
-        <option value="$PROJECT_DIR$/ProEleven.md" />
-        <option value="$PROJECT_DIR$/src/ProEleven.java" />
         <option value="$PROJECT_DIR$/src/ProTwelve.java" />
         <option value="$PROJECT_DIR$/ProTwelve.md" />
         <option value="$PROJECT_DIR$/src/ProThirteen.java" />
@@ -108,6 +162,11 @@
         <option value="$PROJECT_DIR$/markdown/chapter 4/ProTirtytwo.md" />
         <option value="$PROJECT_DIR$/src/ProTirtythree.java" />
         <option value="$PROJECT_DIR$/markdown/chapter 4/ProTirtythree.md" />
+        <option value="$PROJECT_DIR$/src/ProSevenRebuildTree.java" />
+        <option value="$PROJECT_DIR$/markdown/chapter 4/ProTirtyfour.md" />
+        <option value="$PROJECT_DIR$/src/ProTirtyfour.java" />
+        <option value="$PROJECT_DIR$/markdown/chapter 4/ProTirtyfive.md" />
+        <option value="$PROJECT_DIR$/src/ProTirtyfive.java" />
       </list>
     </option>
   </component>
@@ -151,6 +210,12 @@
               <item name="myworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="myworks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myworks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProSevenRebuildTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="myworks" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +351,7 @@
       <workItem from="1562636758235" duration="12727000" />
       <workItem from="1562910481316" duration="8823000" />
       <workItem from="1562932366421" duration="4045000" />
-      <workItem from="1563240726027" duration="7504000" />
+      <workItem from="1563240726027" duration="14673000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些BUG,警告，优化代码">
       <created>1557886078764</created>
@@ -540,11 +605,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563243561819</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="提交了二叉搜索树的后序遍历序列的代码">
+      <created>1563249938471</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1563249938471</updated>
+    </task>
+    <task id="LOCAL-00038" summary="提交了二叉树中和为某一值的路径的代码">
+      <created>1563260360275</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1563260360275</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305493000" />
+    <option name="totallyTimeSpent" value="312662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,7 +638,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,9 +656,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.32848233" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32848233" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49626866" visible="true" weight="0.12889813" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32848233" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.12889813" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49573562" visible="true" weight="0.12889813" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -598,8 +677,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交了用栈模拟列队的代码" />
-    <MESSAGE value="提交了查找二叉树下一个节点的代码" />
     <MESSAGE value="提交了Fibonacci的代码" />
     <MESSAGE value="提交了旋转数组找最小值的代码" />
     <MESSAGE value="提交了矩阵中路劲的代码" />
@@ -623,7 +700,9 @@
     <MESSAGE value="提交了最小的K个数的代码" />
     <MESSAGE value="提交了栈的压入、弹出序列的代码" />
     <MESSAGE value="提交了从上到下打印二叉树的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交了从上到下打印二叉树的代码" />
+    <MESSAGE value="提交了二叉搜索树的后序遍历序列的代码" />
+    <MESSAGE value="提交了二叉树中和为某一值的路径的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交了二叉树中和为某一值的路径的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,50 +717,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ProTwenty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProTwenty.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="741">
-            <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/chapter 3/ProNinteen.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="741">
-            <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FoosballDynasty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="5" column="21" selection-start-line="5" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProEightStackToQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -864,13 +899,6 @@
             <element signature="e#77#78#0" expanded="true" />
             <element signature="e#107#108#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProSevenRebuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1085,6 +1113,62 @@
             <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProNineTreeNextNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTirtyfour.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="667">
+            <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProSevenRebuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProTirtyfour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/chapter 4/ProTirtyfive.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProTirtyfive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
