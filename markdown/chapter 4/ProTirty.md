@@ -8,6 +8,9 @@
     public class ProTirty {
         public int[] findKthNum(int[] Array,int k){
             int[] output = new int[k];
+            QuickSort(Array,0,Array.length-1);
+            System.arraycopy(Array, 0, output, 0, k);
+            return output;
     
         }
         private void QuickSort(int[] Array, int left, int  right){
@@ -15,7 +18,7 @@
                 return;
             int baseNum = Array[left];
             int i = left,j = right;
-            first: while (i != j){
+            while (i != j){
                 while (Array[j] > baseNum && i!=j){
                     j--;
                 }
